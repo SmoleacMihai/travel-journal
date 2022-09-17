@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: #F55A5A;
+  padding: 20px 36px;
+}
+
+nav > span {
+  margin-left: 10px;
+  color: white;
+}
+
+.card-list {
+  margin-top: 50px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.location-card {
+  display: flex;
+}
+
+.location-card--img {
+  width: 125px;
+  height: 168px;
+  border-radius: 5px;
+}
+
+.location-card--info {
+  margin-left: 19px;
+}
+
+.gps--country {
+  margin-left: 4px;
+  color: #2B283A;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+}
+
+.gps--google-maps-link {
+  font-size: 10px;
+  margin-left: 12px;
+  color:#918E9B;
+}
+
+.info--title {
+  margin-top: 4px;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  color: #2B283A;
+}
+
+.info--date {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 10.24px;
+  line-height: 12px;
+  color: #2B283A;
+}
+
+.info--description {
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  color: #2B283A;
+}
